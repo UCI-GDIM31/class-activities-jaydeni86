@@ -29,6 +29,18 @@ _isGrounded is set to false at the end of the if statement.
 
 For the cat we put Rigidbody and Capsule Collider on it because it needs to collide with the ball and to interact with it as well. The cat is also an abnormal shape so Capsule Collider is the right component. SoccerBall we put n Rigidbody and Sphere Collider because the ball needs to collide with the cat and is the shape of a sphere. The Goal has Box Collider and "Is Trigger" is one because the ball needs to pass through for it to count as a goal. The first time, the cat was floating and made hitting the ball awkward. We fixed it by adjusting the collider to be above the floor and minor fixes to fit the cat's shape and position.
 
+### W5
+When would I use GetComponent()?
+To access a component such as a script, rigibody, etc. on another GameObject().
+
+Activity 2:
+Setup a monobehaviour class. 
+Needs a serielaized field, PlayerObject() GameObject()
+Get PlayerObeject() to interact with GameObject()
+Use NavMeshAgent Component
+Use transform.position component to move the deer's position to set its destination following its tranform of the player.
+The Start() method initiates the deer's starting position and the Update() method to update its position it transforms to every frame.
+Create a parameter to limit where the deer transforms to. 
 
 ## Open-Source Assets
 ### W1
