@@ -42,6 +42,16 @@ Use transform.position component to move the deer's position to set its destinat
 The Start() method initiates the deer's starting position and the Update() method to update its position it transforms to every frame.
 Create a parameter to limit where the deer transforms to. 
 
+### W6
+Add PlayerObject() GameObject(), and [SerializeField]
+Add an Update() to check if the bat should start or stop following the player.
+Add another one, but instead using Start(), to start the chase
+Both methods should be public
+The bat should move by proximity or collission (update())
+Create an onCollission for it to follow the player
+
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
