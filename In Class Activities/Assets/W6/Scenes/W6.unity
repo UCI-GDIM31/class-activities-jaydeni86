@@ -8349,7 +8349,9 @@ MonoBehaviour:
   _timeBetweenNewMessages: 0.5
   _playerTransform: {fileID: 0}
   _reactionUiPrefab: {fileID: 0}
-  _newTextTimers: []
+  _newTextTimers:
+  - 0
+  - 0
 --- !u!1 &1588197157
 GameObject:
   m_ObjectHideFlags: 0
