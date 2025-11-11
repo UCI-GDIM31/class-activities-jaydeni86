@@ -50,7 +50,11 @@ Both methods should be public
 The bat should move by proximity or collission (update())
 Create an onCollission for it to follow the player
 
+### W7 
+https://docs.google.com/document/d/15Bf9iq4hlaq_e307D2wAsGnGOj82cBwZpf1YgvIXKqo/edit?usp=sharing 
+Role: UI
 
+The code was originally in Worldspace but needed to be use translate which is an object space.
 
 ## Open-Source Assets
 ### W1

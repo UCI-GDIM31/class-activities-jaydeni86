@@ -88,7 +88,7 @@ public class BatManager : MonoBehaviour
         int x = 0;
             if (distance< _overlapDistance)
         {
-         CreateReactions(bats[i])
+            CreateReactions(bats[i]);
         }
         //for (int i=0; i< _overlapDistance; i++)
 
