@@ -54,7 +54,7 @@ Create an onCollission for it to follow the player
 https://docs.google.com/document/d/15Bf9iq4hlaq_e307D2wAsGnGOj82cBwZpf1YgvIXKqo/edit?usp=sharing 
 Role: UI
 
-The code was originally in Worldspace but needed to be use translate which is an object space.
+The code was originally in Worldspace but needed to be use Translate which is an object space.
 
 ## Open-Source Assets
 ### W1
